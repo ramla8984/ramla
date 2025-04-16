@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Styled Page</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f9;
+color: #900;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+#header {
+background-color: #4caf50;color: white;
+padding: 20px;
+font-size: 24px;
+}
+.section {
+background-color: #ffffff;
+margin: 20px auto;
+padding: 20px;
+width: 80%;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button {
+background-color: #900;
+color: white;
+border: none;
+padding: 10px 20px;
+margin-top: 10px;
+cursor: pointer;
+border-radius: 4px;font-size: 16px;
+}
+.button:hover {
+background-color: #45a049;
+}
+.text {
+line-height: 1.6;
+text-align: justify;
+}
+@media (max-width: 768px) {
+body {
+font-size: 14px;
+}
+.navbar {
+display: none;
+}
+}
+</style>
+</head>
+<body><div id="header">Welcome to My Styled Page</div>
+<div class="section">
+<p class="text">
+This is a sample section with styled text. The background is white, and
+the text is aligned for better readability. You can use this section to
+display content.
+</p>
+<button class="button">Click Me</button>
+</div>
+</body>
+</html>
